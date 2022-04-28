@@ -1,0 +1,229 @@
+body{
+	font-family: Arial, serif;
+	background-color: #EA682B;
+}
+
+main{
+	margin: auto;
+	max-width: 1000px;
+}
+
+ header{
+	height: 250px;
+	padding-top:50px;
+	background-color: #FDF7F4;
+	couleur: #fff;
+	width: 100%;
+	padding-bottom: 20px;
+	margin: 20px auto;
+	box-shadow: 0px 0px 05px #bbb;
+}
+
+.photo{
+	margin-left: 50px;
+	border-radius: 05%;
+	width: 200px;
+	height: 200px;
+	overflow: hidden; 
+}
+
+.des{
+	margin-left: 30%;
+	margin-top: -20%;
+}
+
+h1{
+	color: #585d59;
+    font-family: Helvetica;
+    letter-spacing: 10px;
+    font-size: 60px;
+    font-display: 50px;
+    font-weight: bold;
+}
+
+h2{
+	color: #585d59;
+    font-family: Helvetica;
+    font-size:30px;
+    font-weight:bold;
+}
+
+h3{
+	color: orangered;
+    font-family: Helvetica;
+    font-size:25px;
+    font-weight:bold;
+    margin-left: 50px;
+}
+
+h4{
+	color: orangered;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 30px;
+}
+
+h5{
+	color: grey;
+    font-family: Helvetica;
+    font-size:20px;
+    font-weight:bold;
+    margin-left: 50pw;
+}
+
+h6{
+	color: grey;
+    font-family: Helvetica;
+    font-size:15px;
+    font-weight:bold;
+    margin-left: 10%;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+
+section{
+	justify-content: center;
+	width: 100%;
+	padding-bottom: 20px;
+	margin: 20px auto;
+	box-shadow: 0px 0px 10px #bbb;
+	background: #FDF7F4
+}
+
+hr.light{
+	border-top: 2px solid orangered;
+	width: 90%;
+	margin-top: -50px;
+	margin-bottom: 10px;
+}
+
+.section-left{
+	background-color: #fff;
+	float: left;
+	width: 400px;
+}
+
+.section-right{
+	background-color: #fff;
+	float: right;
+	width: 400px;
+}
+
+p{
+	color: #585d59;
+    font-family: Helvetica;
+    font-size:15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+/*PARTIE COMPETENCE*/
+
+.skls{
+	padding: 0;
+	width: 40%;
+	margin-left: 10%;
+}
+.po{
+	margin-left: 20px;
+}
+.cool{
+	background-color: #fff;
+	border: 2px solid #ccc;
+	width: 300px;
+	height: 7px;
+}
+.inner{
+	height: 100%;
+	background-color: orangered;
+}
+
+
+
+
+/*PARTIE EXPERIENCE PROFESSIONNELLE*/
+
+.div{
+	display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.div-logo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+
+.div-info{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.div img{
+    width: 120%;
+    padding: 50px;
+}
+
+.div-info{
+	display: flex;
+	flex-flow: column wrap;
+}
+
+
+
+
+
+
+.global-card{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.little-card{
+	margin: 8px;
+	flex-grow: 1;
+}
+
+.little-card img{
+	width: 120px;
+	heigh: 120px;
+	object-fit: cover;
+	display: inline-block;
+	vertical-align: left;
+}
+
+
+.card-white{
+	margin: 10px auto;
+	color: #585d59
+}
+
+
+
+
+
+
+.interet{
+	marge-left: 10%;
+}
+
+
+.footer {
+  background: #EA682B;
+  color: #585d59;
+  padding: 20px 0px;
+}
+
+.container{
+	margin: 10px auto;
+	margin-left: 120px;
+}
+
+
